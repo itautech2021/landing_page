@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+ }
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+  background: #23232e;
+  height: 60px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+}
+
+.menu-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.noticias{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.noti1e2{
+  justify-content: flex-start;
+  background-color: aqua;
+  width: 300px;
+  height: 600px;
+}
