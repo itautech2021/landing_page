@@ -1,31 +1,52 @@
-.ac_box{
-    width: 337px;
-  
+* { /* RESERTAR AS CONFIGURAÇÕES DO NAVEGADOR */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.ac_top_box{                                                                                                                                                                                                                                                                            
-    border: 2px solid #E6E6E6;
-    border-bottom: none;
-    margin-left: 2px;
-    height: 7px;
-    width: 323px;
-        
+#sobre_titulo { /* CONFIGURAÇÕES DO TITULO */
+    text-align: center;
 }
 
-.ac_box_content{
-    border-left: 4px solid #E6E6E6;
-    border-right: 10px solid #E6E6E6;
-    border-bottom: 10px solid #E6E6E6;
-    height: 340px;
-    padding: 5px 0;
-    border-radius: 15px 15px 15px 15px;
-
+main { /* CONFIGURAÇÕES DO GRID PAI */
+    background-color: white;
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 315px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: auto;
+    margin-top: 50px;
 }
 
-.profile{
-    border-radius: 30px 30px 30px 30px;                                                                                                                                                                                                           
-    padding-top: 20px;                                                                                                                                      
-    margin-left: 40px;
-    padding-left: 20px;
-    width: 50%;                                                                 
-}                                                                                                           
+@media only screen and (max-width: 600px) {
+    /* PARA CELULARES E TELAS MENORES */
+    main {
+      width: 100%;
+      grid-template-columns: 1fr;
+    }
+}
+
+#sobre_vanessa,
+#sobre_cleber,
+#sobre_luan,
+#sobre_eduardo,
+#sobre_baronny { /* CONFIGURAÇÕES DO GRID ITEMS */
+    border:1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    place-items: center;
+    box-shadow: 5px 5px #888888;
+}
+
+#foto_participantes {
+    border-radius: 50%;
+    width: 80px;
+}
+
+#imagem_git,
+#imagem_linkedin {
+    width: 30px;
+}

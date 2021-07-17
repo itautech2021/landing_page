@@ -4,7 +4,7 @@
  box-sizing: border-box;
 }
 
-body {
+body { /* CONFIGURAÇÃO DO BODY (CORPO DA PÁGINA) */
     background-color: rgb(196, 190, 190); 
 }
 
@@ -16,32 +16,32 @@ form { /* CONFIGURAÇÃO DA DIV FORM */
     margin: 20px auto;
     border-radius: 5px;
     box-shadow: 5px 5px #888888;
-    
 }
 
-fieldset {
+fieldset { /* CONFIGURAÇÃO DA CAIXA DO FORMULÁRIO */
     padding: 20px;
 }
 
-h1 {
+h1 { /* CONFIGURAÇÃO DO TITULO */
     font-size: 25px;
 }
 
 input[type='text'],
 input[type='email'],
 textarea,
-input[type='tel'] { /* CONFIGURAÇÃO DOS INPUT */
+input[type='tel'] { /* CONFIGURAÇÃO DOS INPUT E TEXTAREA */
     width: 100%;
     border: none;
     padding: 5px;
     outline: none;
     background: none;
+    color: white;
     border-bottom: 3px solid black;
     margin-bottom: 30px;
     transition: color 0.3s ease-in-out;
 }
 
-.btn {
+.btn { /* CONFIGURAÇÕES DOS BOTOES */
     background-color: purple;
     color: white;
     border: none;
@@ -52,6 +52,20 @@ input[type='tel'] { /* CONFIGURAÇÃO DOS INPUT */
     cursor: pointer;
 }
 
-::placeholder{
+::placeholder{ /* CONFIGURAÇÃO DOS PLACEHOLDER */
     color: white;
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+textarea:hover,
+input[type='tel']:hover{ /* CONFIGURAÇÃO DOS INPUTS QUANDO PASSARMOS O CURSOR */
+    background-color:purple;
+    border-radius: 3px;
+}
+
+button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
+    background-color: white;
+    color: purple;
+    font-weight: bold;
 }

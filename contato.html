@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>.: Landing page COVID-19 :.</title>
     <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <!--Menu-->
+    <div class="menu"> 
+        <a class="logo" href="index.html">.: Landing page COVID-19 :.</a>
+        <ul class="menu-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="saiba.html">Saiba Mais</a></li>
+        </ul>
+      </div>
     <!--Formulário-->
     <form action="" method="post">
         <!--Caixa do formulário-->
         <fieldset>
         <legend><h1>Entre em contato conosco!</h1></legend>
             <label for="name">Nome</label>
-            <input type="text" id="name" name="name" placeholder="Digite o seu nome" autofocus> <!--autofocus serve para iniciar o cursor de texto já no primeiro input -->
+            <input type="text" id="name" name="name" placeholder="Digite o seu nome" autofocus> <!--autofocus serve para iniciar o cursor de texto 
+já no primeiro input -->
             <label for="tel">Telefone</label>
             <input type="tel" id="tel" name="name" placeholder="(xx) xxxxx-xxxx"> 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="nome@email.com" required> <!--ao usar required o campo terá preenchimento obrigatório -->
+            <input type="email" id="email" name="email" placeholder="nome@email.com" required> <!--ao usar required o campo terá preenchimento 
+obrigatório -->
             <label for="mesage">Mensagem</label>
-            <textarea placeholder="Escreva sua mensagem aqui"></textarea>
+            <textarea id="mesage" name="mesage" rows="2" cols="20" placeholder="Escreva sua mensagem aqui"></textarea>
             <!--Div Botoes-->
             <div>
                 <button class="btn" >Enviar</button>
@@ -28,5 +41,6 @@
             </div>
         </fieldset>
     </form>
+    <footer></footer>
 </body>
 </html>
