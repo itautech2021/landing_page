@@ -1,0 +1,31 @@
+.ac_box{
+    width: 337px;
+  
+}
+
+.ac_top_box{                                                                                                                                                                                                                                                                            
+    border: 2px solid #E6E6E6;
+    border-bottom: none;
+    margin-left: 2px;
+    height: 7px;
+    width: 323px;
+        
+}
+
+.ac_box_content{
+    border-left: 4px solid #E6E6E6;
+    border-right: 10px solid #E6E6E6;
+    border-bottom: 10px solid #E6E6E6;
+    height: 340px;
+    padding: 5px 0;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.profile{
+    border-radius: 30px 30px 30px 30px;                                                                                                                                                                                                           
+    padding-top: 20px;                                                                                                                                      
+    margin-left: 40px;
+    padding-left: 20px;
+    width: 50%;                                                                 
+}                                                                                                           

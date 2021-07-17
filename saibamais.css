@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+   }
+  
+  .logo {
+    text-align: left;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: #23232e;
+    height: 60px;
+    margin-bottom: 5%;
+  }
+  
+  .menu-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+body{
+    background-color: whitesmoke;
+}
+
+#img_vacina{
+        display: block;
+        border-radius: 5px 5px 5px 5px;
+        background-size: 100%;
+        background-position: cen;
+        
+
+    /*width: 80%;
+    border-radius: 3px 3px 3px 3px;
+    margin-left: 5%; */
+}
+.noticia figcaption{
+  margin-top: 20%;
+}
+.noticia img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease; 
+  
+  
+}
+
+.noticia:hover img{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+}
+.noticia figcaption{
+  position: absolute;
+  bottom: 0;
+  font-size:  20px;
+  color: black;
+  
+}
+
+#link{
+    color: blue;
+}
+
+.noticia{
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 30%;
+    border: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: justify;
+    display: inline-block;
+     position: relative;
+     border: 30px;
+     display: inline-block;
+     overflow: hidden;
+}
+
+
+#rodape{
+  position: absolute;
+  bottom: 0;
+}
+footer{
+     text-align: center;
+}
