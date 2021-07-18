@@ -96,6 +96,11 @@ body {
     place-items: center;
     box-shadow: 5px 5px 5px 5px gray;
     margin-bottom: 20px;
+    position: relative;
+}
+
+p {
+    text-align: justify;
 }
 
 #foto_participantes {
@@ -104,9 +109,17 @@ body {
     margin: 10px;
 }
 
-#imagem_git,
+#imagem_git {
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
+
 #imagem_linkedin {
     width: 30px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .rodape2 {
