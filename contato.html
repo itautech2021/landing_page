@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.: Landing page COVID-19 :.</title>
     <link rel="stylesheet" href="contato.css">
+    <script src="aplicacao.js"></script>
 </head>
 <body>
     <!--Menu-->
@@ -19,7 +20,7 @@
         </ul>
       </div>
     <!--Formulário-->
-    <form action="" method="post">
+    <form action="javascript:Enviar()"> <!-- Comando para enviar o formulário-->
         <!--Caixa do formulário-->
         <fieldset>
         <legend><h1>Entre em contato conosco!</h1></legend>
@@ -35,8 +36,8 @@ obrigatório -->
             <textarea id="mesage" name="mesage" rows="2" cols="20" placeholder="Escreva sua mensagem aqui"></textarea>
             <!--Div Botoes-->
             <div>
-                <button class="btn" >Enviar</button>
-                <button class="btn" >Cancelar</button>
+                <button type="submit" class="btn" >Enviar</button>
+                <button type="reset" class="btn" >Cancelar</button>
             </div>
         </fieldset>
     </form>
