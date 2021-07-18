@@ -4,27 +4,82 @@
     box-sizing: border-box;
 }
 
-#sobre_titulo { /* CONFIGURAÇÕES DO TITULO */
-    text-align: center;
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: #23232e;
+    height: 60px;
+}
+  
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+  
+.menu-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+  
+h1 {
+      font-size: 40px;
+      line-height: 40px;  
 }
 
-main { /* CONFIGURAÇÕES DO GRID PAI */
+span {
+    font-size: 14px;   
+}
+
+#sobre_titulo { /* CONFIGURAÇÕES DO TITULO */
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.conteudo1 { /* CONFIGURAÇÕES DO GRID PAI */
     background-color: white;
     display: grid;
     width: 800px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 315px;
+    grid-template-rows: 400px;
     column-gap: 10px;
     row-gap: 10px;
     margin: auto;
-    margin-top: 50px;
+}
+
+.conteudo2 { /* CONFIGURAÇÕES DO GRID PAI */
+    background-color: white;
+    display: grid;
+    width: 533px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
     /* PARA CELULARES E TELAS MENORES */
-    main {
+    .conteudo1,
+    .conteudo2 {
       width: 100%;
       grid-template-columns: 1fr;
+      grid-template-rows: 300px;
     }
 }
 
@@ -35,18 +90,21 @@ main { /* CONFIGURAÇÕES DO GRID PAI */
 #sobre_baronny { /* CONFIGURAÇÕES DO GRID ITEMS */
     border:1px solid gray;
     padding: 5px;
+    margin: 5px;
     border-radius: 5px;
     text-align: center;
     place-items: center;
-    box-shadow: 5px 5px #888888;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 #foto_participantes {
     border-radius: 50%;
     width: 80px;
+    margin: 10px;
 }
 
 #imagem_git,
 #imagem_linkedin {
     width: 30px;
 }
+
