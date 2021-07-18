@@ -120,6 +120,9 @@ button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
     font-family: Arial, Helvetica, sans-serif, Courier, monospace;
     background: #323232;
     height: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .bran{
