@@ -4,8 +4,46 @@
  box-sizing: border-box;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: #23232e;
+    height: 60px;
+}
+  
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+  
+.menu-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+  
+h1 {
+      font-size: 40px;
+      line-height: 40px;  
+}
+
+span {
+    font-size: 14px;   
+}
+
 body { /* CONFIGURAÇÃO DO BODY (CORPO DA PÁGINA) */
-    background-color: rgb(196, 190, 190); 
+    background-color: whitesmoke;
 }
 
 form { /* CONFIGURAÇÃO DA DIV FORM */
@@ -14,8 +52,13 @@ form { /* CONFIGURAÇÃO DA DIV FORM */
     padding: 30px;
     max-width: 400px;
     margin: 20px auto;
+    margin-top: 40px;
     border-radius: 5px;
-    box-shadow: 5px 5px #888888;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+label {
+    padding: 5px;
 }
 
 fieldset { /* CONFIGURAÇÃO DA CAIXA DO FORMULÁRIO */
@@ -53,7 +96,7 @@ input[type='tel'] { /* CONFIGURAÇÃO DOS INPUT E TEXTAREA */
 }
 
 ::placeholder{ /* CONFIGURAÇÃO DOS PLACEHOLDER */
-    color: white;
+    color: rgb(182, 179, 179);
 }
 
 input[type='text']:hover,
