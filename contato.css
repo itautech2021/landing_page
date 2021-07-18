@@ -78,7 +78,7 @@ input[type='tel'] { /* CONFIGURAÇÃO DOS INPUT E TEXTAREA */
     padding: 5px;
     outline: none;
     background: none;
-    color: white;
+    color: gray;
     border-bottom: 3px solid black;
     margin-bottom: 30px;
     transition: color 0.3s ease-in-out;
