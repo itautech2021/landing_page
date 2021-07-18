@@ -112,3 +112,17 @@ button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
     color: purple;
     font-weight: bold;
 }
+
+.rodape2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    background: #323232;
+    height: 80px;
+}
+
+.bran{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
