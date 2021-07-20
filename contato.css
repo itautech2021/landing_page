@@ -19,7 +19,7 @@ a {
     justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif, Courier, monospace;
-    background: #23232e;
+    background: #4b1b94;
     height: 60px;
 }
   
@@ -85,7 +85,7 @@ input[type='tel'] { /* CONFIGURAÇÃO DOS INPUT E TEXTAREA */
 }
 
 .btn { /* CONFIGURAÇÕES DOS BOTOES */
-    background-color: purple;
+    background-color: #4b1b94;
     color: white;
     border: none;
     padding: 10px;
@@ -103,13 +103,13 @@ input[type='text']:hover,
 input[type='email']:hover,
 textarea:hover,
 input[type='tel']:hover{ /* CONFIGURAÇÃO DOS INPUTS QUANDO PASSARMOS O CURSOR */
-    background-color:purple;
+    background-color: #4b1b94;
     border-radius: 3px;
 }
 
 button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
     background-color: white;
-    color: purple;
+    color: #4b1b94;
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
     justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif, Courier, monospace;
-    background: #323232;
+    background: #4b1b94;
     height: 80px;
     position: absolute;
     bottom: 0;
