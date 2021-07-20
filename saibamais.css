@@ -21,7 +21,7 @@
     font-family: Arial, Helvetica, sans-serif, Courier, monospace;
     background: #4b1b94;
     height: 60px;
-    margin-bottom: 5%;
+  
   }
   
   .menu-list {
@@ -53,11 +53,12 @@ body{
   margin-top: 20%;
 }
 .noticia img{
-  width: 100%;
-  height: 100%;
+  width: 590px;
+  height: 290px;
   position: relative;
   -webkit-transition: -webkit-transform .5s ease;
   transition: transform .5s ease; 
+  filter: brightness(0.5);
   
   
 }
@@ -75,7 +76,24 @@ body{
 }
 
 #link{
-    color: blue;
+    color: rgb(242, 242, 247);
+}
+
+.text{
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  color: #fff;
+  font-size: 24px;
+  
+}
+.text:hover{
+  text-shadow: 1px 1px 1px rgb(228, 247, 255);
+}
+
+.direita{
+  position: absolute;
+  right: 10px;
 }
 
 .noticia{
@@ -101,4 +119,29 @@ body{
 }
 footer{
      text-align: center;
+}
+
+.rodape2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+  background: #323232;
+  height: 80px;
+}
+
+.bran{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+h2{
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  color: rgb(111, 18, 161);
+  font-size: 28px;
+  border-right: 2px solid rgb(47, 3, 70);
 }
