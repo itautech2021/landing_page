@@ -111,26 +111,14 @@ body{
     display: inline-block;
     overflow: hidden;
     text-align: center;
+    position: relative;
 }
 
-
-#rodape{
-  position: absolute;
-  bottom: 0;
-}
-
-.rodape2 {
-  position: absolute;
-  bottom: 0;
+footer{
+ 
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif, Courier, monospace;
-  background: #4b1b94;
-  height: 80px;
+  height: 100%;
 }
-
 .rodape2 {
   display: flex;
   justify-content: space-around;
@@ -138,6 +126,8 @@ body{
   font-family: Arial, Helvetica, sans-serif, Courier, monospace;
   background: #4b1b94;
   height: 80px;
+  
+  width: 100%;
 }
 
 .bran{
@@ -152,7 +142,6 @@ h2{
   color: rgb(111, 18, 161);
   font-size: 28px;
   border-right: 2px solid rgb(47, 3, 70);
-
   margin-right: 30px;
 }
 
@@ -172,4 +161,9 @@ h1 {
   transition: color 0.3s ease-in-out;
   cursor:auto;
  
+}
+
+.corpo{
+  max-width: 1200px;
+  margin: 0 auto;
 }
