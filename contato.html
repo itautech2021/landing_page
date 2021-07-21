@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.: Landing page COVID-19 :.</title>
     <link rel="stylesheet" href="contato.css">
-    <script src="aplicacao.js"></script>
+    
 </head>
 <body>
     <!--Menu-->
@@ -23,22 +23,27 @@
     <form action="javascript:Enviar()"> <!-- Comando para enviar o formulário-->
         <!--Caixa do formulário-->
         <fieldset>
+            <form action="https://api.staticforms.xyz/submit" method="POST" id="staticform">
         <legend><h1>Entre em contato conosco!</h1></legend>
+                <input type="hidden" name="accessKey" value="30f23aed-762a-40a5-909d-b0c43de21fcb">
+                <input type="hidden" name="subject" value="index.html">
+                <input type="hidden" name="redirectTo" value="index.html">
             <label for="name">Nome</label>
             <input type="text" id="name" name="name" placeholder="Digite o seu nome" autofocus> <!--autofocus serve para iniciar o cursor de texto 
 já no primeiro input -->
             <label for="tel">Telefone</label>
-            <input type="tel" id="tel" name="name" placeholder="(xx) xxxxx-xxxx"> 
+            <input type="tel" id="tel" name="phone" placeholder="(xx) xxxxx-xxxx"> 
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="nome@email.com" required> <!--ao usar required o campo terá preenchimento 
 obrigatório -->
             <label for="mesage">Mensagem</label>
-            <textarea id="mesage" name="mesage" rows="2" cols="20" placeholder="Escreva sua mensagem aqui"></textarea>
+            <textarea id="mesage" name="message" rows="2" cols="20" placeholder="Escreva sua mensagem aqui"></textarea>
             <!--Div Botoes-->
             <div>
-                <button type="submit" class="btn" >Enviar</button>
-                <button type="reset" class="btn" >Cancelar</button>
+                <input type="submit" value="Submit" />
+                
             </div>
+        </form>
         </fieldset>
     </form>
     <footer>
