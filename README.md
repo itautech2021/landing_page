@@ -26,11 +26,11 @@ A página deve conter um menu de navegação e as páginas respectivas de:
 
  
 ## Intregrantes do grupo:
-   Baronny Castro__
-   Vanessa Oliveira__
-   Cleber Silva__ 
-   Eduardo Rocha__
-   Luan Felipe__
+   Baronny Castro  
+   Vanessa Oliveira  
+   Cleber Silva  
+   Eduardo Rocha  
+   Luan Felipe  
 
  
   
