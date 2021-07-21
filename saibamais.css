@@ -10,7 +10,7 @@ a {
   
 .logo {
     text-align: left;
-    font-size: max(10px, 2.4vw) ;
+    font-size: max(16px, 1.4vw);
     text-transform: uppercase;
 }
   
