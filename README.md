@@ -1,13 +1,14 @@
+# COVID NEWS
 Desenvolvimento de Projeto Final Itaú Formação Tech Edição {pessoas com deficiência}.
 
 
-Proposta:
+## Proposta
 
 Objetivo: Construir uma landing page com as 6 melhores notícias sobre o COVID-19 na opinião de vocês. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio.
 
  
 
-Entregáveis:
+## Entregáveis:
 
 A página deve obrigatoriamente ter arquivos separados de HTML e CSS.
 
@@ -24,15 +25,13 @@ A página deve conter um menu de navegação e as páginas respectivas de:
       d. Saiba mais: curadoria de fontes de onde você tirou essas notícias, para o caso da pessoa querer navegar e descobrir outras.
 
  
+## Intregrantes do grupo:
+   Baronny Castro
+   Vanessa Oliveira
+   Cleber Silva 
+   Eduardo Rocha
+   Luan Felipe
 
-*Não é preciso ter domínio próprio e recomendamos o Netlify para hospedagem.
+ 
+  
 
-Como?
-
-O desafio deverá ser desenvolvido por grupos de até 5 pessoas.
-
-Prazo (Atenção)!
-
-1. Formação de grupos até o dia 16/07
-
-2. Vocês terão até o dia 21 de julho, quarta, às 23 horas e 59 minutos para entregar o desafio.
