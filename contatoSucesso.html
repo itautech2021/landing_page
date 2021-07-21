@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.: Landing page COVID-19 :.</title>
+    <link rel="stylesheet" href="contato.css">
+    <script src="aplicacao.js"></script>
+</head>
+<body>
+    <!--Menu-->
+    <div class="menu"> 
+        <a class="logo" href="index.html">.: Landing page COVID-19 :.</a>
+        <ul class="menu-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="saibamais.html">Saiba Mais</a></li>
+        </ul>
+      </div>
+    <!--Formulário-->
+    <div class="column is-half">
+        <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+          <fieldset>
+            <legend><h1>Entre em contato conosco!</h1></legend>
+            <!-- Replace with your StaticForms accessKey -->
+            <input type="hidden" name="accessKey" value="30f23aed-762a-40a5-909d-b0c43de21fcb">
+            <input type="hidden" name="subject" value="Test from jsfiddle">
+            <!-- Replace with the url you want to redirect to -->
+            <input type="hidden" name="redirectTo" value="https://itautech2021.github.io/landing_page/contato.html">
+            <div class="field">
+            <label class="label">Nome</label>
+            <div class="control">
+              <input class="input" type="text" name="name" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="field">
+            <label class="label">Telefone</label>
+            <div class="control">
+              <input class="input" type="text" name="phone" placeholder="Digite telefone (XX) XXXXX - XXXX" required>
+            </div>
+
+            </div>
+            <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" name="email" placeholder="Digite seu Email" required>
+            </div>
+            </div>
+            <div class="field">
+            <label class="label">Mensagem</label>
+            <div class="control">
+              <textarea class="textarea" name="message" placeholder="Digite mensagem"  required></textarea>
+            </div>
+            </div>
+            <div>
+                <button type="submit" class="btn" value="exibir alert" onclick=exibeAlert() >Enviar</button>
+                <button type="reset" class="btn" >Cancelar</button>
+            </div>
+            <br/>
+            <p>Email enviado com Sucesso</p>
+          </fieldset>
+        </form>
+      </div>
+    <footer>
+    <div class="rodape2">
+        <p class="bran">© 2021 Programa de Formação Tech | Itaú // Edição Pcd</p>
+    </div>
+</footer>
+</body>
+</html>

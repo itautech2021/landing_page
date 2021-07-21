@@ -9,7 +9,7 @@ a {
  }
 
 .logo {
-  font-size: 24px;
+  font-size: max(10px, 2.4vw);
   text-transform: uppercase;
 }
 
@@ -38,8 +38,7 @@ a {
 
 h1{
     font-size: 40px;
-    line-height: 40px;
-    
+    line-height: 40px;    
 }
 
 .sombra:hover{
@@ -47,8 +46,7 @@ h1{
 }
 
 span{
-  font-size: 14px;
- 
+  font-size: 14px; 
 }
 
 .grid1{
@@ -58,7 +56,6 @@ span{
     margin: 0 auto;
     grid-gap: 20px;
     padding: 20px;
-
 }
 
 .banner{
@@ -77,8 +74,7 @@ span{
     bottom: 0;
     text-align: center;
     color: #fff;
-    padding-bottom: 20px;
-   
+    padding-bottom: 20px;   
 }
 
 .banner img{
@@ -86,14 +82,12 @@ span{
     height: 100%;
     filter: brightness(0.5);
     -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-   
+    transition: transform .5s ease;   
 }
 
 .banner:hover img{
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    
+    transform: scale(1.1);    
 }
 
 .noti{
@@ -105,14 +99,12 @@ span{
   
   filter: brightness(0.5);
   -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
- 
+  transition: transform .5s ease; 
 }
 
 .noti:hover img{
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  
+  transform: scale(1.1);  
 }
 
 .banner1{
@@ -162,8 +154,7 @@ h6{
 .imgtext{
     position: absolute;
     bottom: 0;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 .texth{
@@ -179,6 +170,7 @@ h6{
     background: #9691e5;
     height: 160px;
 }
+
 .rodape2 {
     display: flex;
     justify-content: space-around;
@@ -192,4 +184,8 @@ h6{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
+
+
+
+
   

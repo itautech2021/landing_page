@@ -10,7 +10,7 @@ a {
   
 .logo {
     text-align: left;
-    font-size: 24px;
+    font-size: max(10px, 2.4vw) ;
     text-transform: uppercase;
 }
   
@@ -21,7 +21,7 @@ a {
     font-family: Arial, Helvetica, sans-serif, Courier, monospace;
     background: #4b1b94;
     height: 60px;
-  
+    
 }
   
 .menu-list {
