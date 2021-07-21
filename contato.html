@@ -20,30 +20,38 @@
         </ul>
       </div>
     <!--Formulário-->
-    <form action="javascript:Enviar()"> <!-- Comando para enviar o formulário-->
-        <!--Caixa do formulário-->
-        <fieldset>
-            <form action="https://api.staticforms.xyz/submit" method="POST" id="staticform">
-        <legend><h1>Entre em contato conosco!</h1></legend>
-                <input type="hidden" name="accessKey" value="30f23aed-762a-40a5-909d-b0c43de21fcb">
-                <input type="hidden" name="subject" value="index.html">
-                <input type="hidden" name="redirectTo" value="index.html">
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" placeholder="Digite o seu nome" autofocus> <!--autofocus serve para iniciar o cursor de texto 
-já no primeiro input -->
-            <label for="tel">Telefone</label>
-            <input type="tel" id="tel" name="phone" placeholder="(xx) xxxxx-xxxx"> 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="nome@email.com" required> <!--ao usar required o campo terá preenchimento 
-obrigatório -->
-            <label for="mesage">Mensagem</label>
-            <textarea id="mesage" name="message" rows="2" cols="20" placeholder="Escreva sua mensagem aqui"></textarea>
-            <!--Div Botoes-->
-            <div>
-                <input type="submit" value="Submit" />
-                
+    <div class="column is-half">
+        <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+          <!-- Replace with your StaticForms accessKey -->
+          <input type="hidden" name="accessKey" value="30f23aed-762a-40a5-909d-b0c43de21fcb">
+          <input type="hidden" name="subject" value="Test from jsfiddle">
+          <!-- Replace with the url you want to redirect to -->
+          <input type="hidden" name="redirectTo" value="https://www.google.com">
+          <div class="field">
+            <label class="label">Nome</label>
+            <div class="control">
+              <input class="input" type="text" name="name" placeholder="Enter Your Name" required>
             </div>
+            <label class="label">Telefone</label>
+            <div class="control">
+              <input class="input" type="text" name="phone" placeholder="Entre com seu nome" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Mensagem</label>
+            <div class="control">
+              <textarea class="textarea" name="message" placeholder="Enter Your Message" required></textarea>
+            </div>
+          </div>
+          <button class="button is-primary" type="Submit">Submit</button>
         </form>
+      </div>
         </fieldset>
     </form>
     <footer>
