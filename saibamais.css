@@ -3,18 +3,18 @@
     padding: 0;
   }
   
-  a {
+a {
     color: #fff;
     text-decoration: none;
-   }
+}
   
-  .logo {
+.logo {
     text-align: left;
     font-size: 24px;
     text-transform: uppercase;
-  }
+}
   
-  .menu {
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,18 +22,22 @@
     background: #4b1b94;
     height: 60px;
   
-  }
+}
   
-  .menu-list {
+.menu-list {
     list-style: none;
     display: flex;
-  }
+}
   
-  .menu-list li {
+.menu-list li {
     letter-spacing: 3px;
     margin-left: 32px;
-  }
-  
+}
+
+.menu a:hover {
+  opacity: 0.7;
+}
+
 body{
     background-color: whitesmoke;
 }
